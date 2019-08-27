@@ -210,6 +210,7 @@ struct PangoTerm {
   GtkClipboard *selection_clipboard;
 
   GString *outbuffer;
+  bool did_set_font_size;
 };
 
 /*
